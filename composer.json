@@ -1,0 +1,21 @@
+{
+    "name": "petjeaf/oauth2-petjeaf",
+    "description": "Petje.af Provider for OAuth 2.0 Client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Petje.af B.V.",
+            "email": "info@petje.af"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0",
+        "league/oauth2-client": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Petjeaf\\OAuth2\\Client\\": "src/"
+        }
+    }
+}
