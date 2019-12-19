@@ -17,7 +17,7 @@ class Petjeaf extends AbstractProvider
 	 *
 	 * @const string
 	 */
-    const BASE_API_URL = 'https://api.petje.af';
+    const BASE_API_URL = 'https://api.petje.af/v1';
     
 	/**
 	 * The base url to the web application.
